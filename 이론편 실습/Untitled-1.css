@@ -1,0 +1,28 @@
+body,
+html {
+  background-color: #2090ff;
+  height: 100%;
+}
+.father {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+.boxOne {
+  display: flex;
+  width: 200px;
+  height: 200px;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #ff6b80;
+  flex-direction: column;
+}
+.boxTwo {
+  width: 50px;
+  height: 50px;
+  background-color: #d8d8d8;
+}
+.boxTwo:hover:nth-child(2) {
+  background-color: #ff6b80;
+}
